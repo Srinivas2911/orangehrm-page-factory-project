@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Login Panel Link [[ChromeDriver: chrome on WINDOWS (dde3ccbd8cbba9a1a8f16ff195b83a79)] -> xpath: //div[@id='logInPanelHeading']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Entering Username  : Admin [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: txtUsername]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Password  : admin123 [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: txtPassword]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button  : [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: btnLogin]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Displaying Welcome AdminText :[[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> xpath: //a[@id='welcome']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47112" started-at="2020-04-19T17:45:24 BST" finished-at="2020-04-19T17:46:12 BST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.UserIsAbleToLoginSuccessfully()[pri:0, instance:com.orangehrm.testsuite.LoginTest@646d64ab]" name="UserIsAbleToLoginSuccessfully" class="com.orangehrm.testsuite.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomepageTest.verifyThatLoginPanelTextisDisplayed()[pri:0, instance:com.orangehrm.testsuite.HomepageTest@1b68ddbd]" name="verifyThatLoginPanelTextisDisplayed" class="com.orangehrm.testsuite.HomepageTest"/>
+        <method signature="LoginTest.UserIsAbleToLoginSuccessfully()[pri:0, instance:com.orangehrm.testsuite.LoginTest@646d64ab]" name="UserIsAbleToLoginSuccessfully" class="com.orangehrm.testsuite.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="HomepageTest.verifyThatLoginPanelTextisDisplayed()[pri:0, instance:com.orangehrm.testsuite.HomepageTest@1b68ddbd]" name="verifyThatLoginPanelTextisDisplayed" class="com.orangehrm.testsuite.HomepageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Surefire test" duration-ms="47112" started-at="2020-04-19T17:45:24 BST" finished-at="2020-04-19T17:46:12 BST">
+      <class name="com.orangehrm.testsuite.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.orangehrm.testsuite.LoginTest@646d64ab]" name="openBrowser" is-config="true" duration-ms="11835" started-at="2020-04-19T17:45:45 BST" finished-at="2020-04-19T17:45:57 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.orangehrm.testsuite.LoginTest@646d64ab]" name="setUpMethod" is-config="true" duration-ms="14" started-at="2020-04-19T17:45:57 BST" finished-at="2020-04-19T17:45:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="UserIsAbleToLoginSuccessfully()[pri:0, instance:com.orangehrm.testsuite.LoginTest@646d64ab]" name="UserIsAbleToLoginSuccessfully" duration-ms="13337" started-at="2020-04-19T17:45:57 BST" finished-at="2020-04-19T17:46:10 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Username  : Admin [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: txtUsername]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Password  : admin123 [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: txtPassword]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button  : [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: btnLogin]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Displaying Welcome AdminText :[[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> xpath: //a[@id='welcome']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserIsAbleToLoginSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testsuite.LoginTest@646d64ab]" name="tearDown" is-config="true" duration-ms="1359" started-at="2020-04-19T17:46:10 BST" finished-at="2020-04-19T17:46:12 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testsuite.LoginTest -->
+      <class name="com.orangehrm.testsuite.HomepageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.orangehrm.testsuite.HomepageTest@1b68ddbd]" name="openBrowser" is-config="true" duration-ms="15815" started-at="2020-04-19T17:45:25 BST" finished-at="2020-04-19T17:45:40 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.orangehrm.testsuite.HomepageTest@1b68ddbd]" name="setUpMethod" is-config="true" duration-ms="84" started-at="2020-04-19T17:45:40 BST" finished-at="2020-04-19T17:45:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="verifyThatLoginPanelTextisDisplayed()[pri:0, instance:com.orangehrm.testsuite.HomepageTest@1b68ddbd]" name="verifyThatLoginPanelTextisDisplayed" duration-ms="309" started-at="2020-04-19T17:45:40 BST" finished-at="2020-04-19T17:45:41 BST">
+          <reporter-output>
+            <line>
+              <![CDATA[Displaying Login Panel Link [[ChromeDriver: chrome on WINDOWS (dde3ccbd8cbba9a1a8f16ff195b83a79)] -> xpath: //div[@id='logInPanelHeading']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatLoginPanelTextisDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testsuite.HomepageTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="4220" started-at="2020-04-19T17:45:41 BST" finished-at="2020-04-19T17:45:45 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testsuite.HomepageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

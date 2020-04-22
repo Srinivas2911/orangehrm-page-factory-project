@@ -1,0 +1,6 @@
+com\orangehrm\basepage\BasePage.class
+com\orangehrm\loadProperty\LoadProperty.class
+com\orangehrm\pages\HomePage.class
+com\orangehrm\browserselector\BrowserSelector.class
+com\orangehrm\utility\Utility.class
+com\orangehrm\pages\WelcomeAdminPage.class

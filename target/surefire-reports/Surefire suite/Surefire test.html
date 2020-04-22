@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 19 17:45:24 BST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47112 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.testsuite.LoginTest.UserIsAbleToLoginSuccessfully()'><b>UserIsAbleToLoginSuccessfully</b><br>Test class: com.orangehrm.testsuite.LoginTest<br/>
+<a href="#Output-1550228904" onClick='toggleBox("Output-1550228904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1550228904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1550228904">
+Entering Username  : Admin [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: txtUsername]<br><br/>
+Entering Password  : admin123 [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: txtPassword]<br><br/>
+Clicking on Login Button  : [[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> id: btnLogin]<br><br/>
+Displaying Welcome AdminText :[[ChromeDriver: chrome on WINDOWS (c2f21c03834402c9c85a45efe75b659d)] -> xpath: //a[@id='welcome']]<br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.orangehrm.testsuite.LoginTest@646d64ab</td></tr>
+<tr>
+<td title='com.orangehrm.testsuite.HomepageTest.verifyThatLoginPanelTextisDisplayed()'><b>verifyThatLoginPanelTextisDisplayed</b><br>Test class: com.orangehrm.testsuite.HomepageTest<br/>
+<a href="#Output-2104973502" onClick='toggleBox("Output-2104973502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2104973502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2104973502">
+Displaying Login Panel Link [[ChromeDriver: chrome on WINDOWS (dde3ccbd8cbba9a1a8f16ff195b83a79)] -> xpath: //div[@id='logInPanelHeading']]<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.testsuite.HomepageTest@1b68ddbd</td></tr>
+</table><p>
+</body>
+</html>
